@@ -31,6 +31,8 @@ import sanity from "../assets/sanity.png"
 import restaurants from '../assets/restaurant.png'
 import furwood from '../assets/furwood.png'
 import contactapp from "../assets/contactapp.png"
+
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   email,
   mobile,
