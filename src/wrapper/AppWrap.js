@@ -18,24 +18,15 @@ const AppWrap = (Component, idName, classNames) =>
             <p className="p-text">All rights reserved</p>
 
             <div className="app__social-footer app__flex">
-              <a
-                href="https://github.com/btasevski123?tab=repositories"
-                target="_blank"
-              >
+              <a href="https://github.com/btasevski123?tab=repositories">
                 <BsGithub />{" "}
               </a>
 
-              <a
-                href="https://www.linkedin.com/in/boris-tasevski-3a4a38163/"
-                target="_blank"
-              >
+              <a href="https://www.linkedin.com/in/boris-tasevski-3a4a38163/">
                 <FaLinkedinIn />{" "}
               </a>
 
-              <a
-                href="https://www.facebook.com/boris.tasevski/"
-                target="_blank"
-              >
+              <a href="https://www.facebook.com/boris.tasevski/">
                 <FaFacebookF />{" "}
               </a>
 

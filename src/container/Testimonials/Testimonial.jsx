@@ -27,12 +27,10 @@ const Testimonial = () => {
         <>
           <h2 className="head-text pb">Highlights</h2>
           <div className="app__testimonial-item app__flex">
-           <a href="">
-           <img
+            <img
               src={urlFor(testimonials[currentIndex].imgurl)}
               alt={testimonials[currentIndex].name}
             />
-           </a>
           </div>
 
           <div className="app__testimonial-btns app__flex">
