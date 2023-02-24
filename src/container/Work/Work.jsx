@@ -111,6 +111,15 @@ const Work = () => {
                 {work.description}
               </p>
 
+              <div className="mobile-icons app__flex">
+              <a href={work.projectLink} target="_blank" rel="noreferrer">
+                    <AiFillEye />
+                </a>
+                <a href={work.codeLink} target="_blank" rel="noreferrer">
+                    <AiFillGithub />
+                </a>
+              </div>
+
               <div className="app__work-tag app__flex">
                 <p className="p-text">{work.tags[0]}</p>
               </div>

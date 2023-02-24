@@ -153,4 +153,35 @@
     background-color: #fff;
     top: -25px;
   }
+
+  .mobile-icons {
+    display: none;
+
+    @media  screen and (max-width: 768px) {
+display: flex;
+    }
+      
+    
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.2rem;
+      font-size: 1.5rem;
+      background-color: var(--gray-color);
+      color: #fff;
+      border-radius: 50%;
+
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+
+      &:hover {
+        color: var(--secondary-color);
+        background-color: var(--gray-color);
+      }
+    }
+  }
+
+  
 }
